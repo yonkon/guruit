@@ -29,9 +29,7 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-    <link rel="stylesheet" href="/js/FlexSlider/flexslider.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script src="/js/FlexSlider/jquery.flexslider.js"></script>
+
     <?php wp_head(); ?>
 </head>
 
