@@ -53,4 +53,3 @@
 
 	<div id="main" class="wrapper">
 		<?php } ?>
-		<h1> header</h1>

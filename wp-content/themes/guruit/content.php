@@ -77,26 +77,26 @@ if(false) {
 ?>
 <div class="main_page content">
 <!--	Коричневые кнопки-->
-	<a class="main_page button">Разработка сайтов</a>
-	<a class="main_page button">Веб-дизайн</a>
-	<a class="main_page button">Инфографика</a>
-	<a class="main_page button">SEO</a>
-	<a class="main_page button">Портфолио</a>
-	<a class="main_page button">Контакты</a>
+	<a class="main_page button" id="link_site_development">Разработка сайтов</a>
+	<a class="main_page button" id="link_web_design">Веб-дизайн</a>
+	<a class="main_page button" id="link_infographics" >Инфографика</a>
+	<a class="main_page button" id="link_seo" >SEO</a>
+	<a class="main_page button" id="link_portfolio" >Портфолио</a>
+	<a class="main_page button" id="link_contacts" >Контакты</a>
 
-	<a class="main_page button">Заказать услугу</a>
+	<a class="main_page button" id="link_make_order" >Заказать услугу</a>
 <!--	Коричневые кнопки - КОНЕЦ -->
 <!-- Синие кнопки -->
-	<a class="main_page button">Подробнее</a>
+	<a class="main_page button" id="link_details" >Подробнее</a>
 <!-- Синие кнопки - КОНЕЦ -->
 <!-- Ссылки-->
-	<a class="main_page button">Скачать</a>
-	<a class="main_page button">Портфолио</a>
+	<a class="main_page button" id="link_download" >Скачать</a>
+	<a class="main_page button" id="link_portfolio_count" >Работ в нашем <span class="underlined">портфолио</span></a>
 <!-- Ссылки - КОНЕЦ -->
 <!-- Невидимые кнопки-->
-	<a class="main_page button">Почта</a>
-	<a class="main_page button">VK</a>
-	<a class="main_page button">FB</a>
-	<a class="main_page button">TWITTTER</a>
+	<a class="main_page button"  id="link_email" >Почта</a>
+	<a class="main_page button social"  id="link_vk" onclick="alert('vk');" >&nbsp;</a>
+	<a class="main_page button social"  id="link_fb" onclick="alert('fb');">&nbsp;</a>
+	<a class="main_page button social"  id="link_tw" onclick="alert('tw');">&nbsp;</a>
 	<!-- Невидимые кнопки-->
 </div>

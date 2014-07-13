@@ -1,3 +1,191 @@
+@font-face {
+	font-family:'HeliosCondLight';
+	src: /*local('fonts/HeliosCondLight2.ttf') format('truetype'),*/
+		url('fonts/HeliosCondLight2.ttf') format('truetype'),
+		url('fonts/HeliosCondLight.ttf') format('truetype'),
+		url('http://www.911fonts.com/fonts/1/1/9/11990.ttf') format('truetype'),
+			;
+	/*src: url('fonts/HeliosCondLight2.ttf');*/
+}
+
 body {
-	background-size: cover;
+	background-size: 100%;
+}
+
+html, body, head, .main_page {
+	margin:0;
+	padding: 0;
+}
+
+.main_page.button {
+	display: block;
+	position: absolute;
+	background: none;
+	color: #33180e;
+	font-family:HeliosCondLight;
+	font-size:16px;
+	font-weight: bolder;
+	letter-spacing: -1px;
+	width: 10%;
+	text-align: center;
+	height: 4.6%;
+	padding-top: 0.5%;
+	vertical-align: middle;
+
+}
+.main_page.button.brown {
+
+}
+
+/*Ссылки на главной*/
+
+#link_site_development {
+	margin-top: 10%;
+	margin-left: 17.35%;
+}
+#link_web_design {
+	margin-top: 23.9%;
+	margin-left: 20.6%;
+}
+#link_infographics {
+	margin-top: 36.4%;
+	margin-left: 45.2%;
+}
+#link_seo {
+	margin-top: 20.7%;
+	margin-left: 63.75%;
+}
+#link_portfolio {
+	margin-top: 9.3%;
+	margin-left: 71.3%;
+}
+
+#link_make_order {
+	margin-top: 44.5%;
+	margin-left: 58.2%;
+	font-family: Arial;
+	color: #a5715e;
+	font-size: 13px;
+	width: 8%;
+	padding-top: 0;
+}
+#link_contacts {
+	margin-top: 28.9%;
+	margin-left: 77.5%;
+}
+
+#link_details {
+	margin-top: 28.4%;
+	margin-left: 46.9%;
+	color: #004442;
+	width: 6.3%;
+	height: 3%;
+}
+
+#link_download {
+	width: 4%;
+	margin-top: 16%;
+	margin-left: 30.5%;
+	font-family: Helvetica;
+	font-size: 12px;
+	border-bottom: 1px dashed;
+	height: auto;
+}
+#link_download:hover {
+	border-bottom: none;
+}
+
+
+#link_portfolio_count {
+	margin-top: 41%;
+	margin-left: 63.5%;
+	font-family: Helvetica;
+	font-size: 12px;
+	width: 7%;
+	color: white;
+}
+
+#link_email {
+	margin-top: 37%;
+	margin-left: 89%;
+	width: 4.5%;
+	height: 9%;
+	color: transparent;
+	background: none;
+}
+
+.button.social {
+	width: 3.7%;
+	height: 7%;
+	color: transparent;
+	background: red;
+	border-radius: 2em;
+}
+#link_vk {
+	margin-top: 44%;
+	margin-left: 83%;
+}
+#link_tw {
+	 margin-top: 46.4%;
+	 margin-left: 86%;
+ }
+#link_fb {
+	margin-top: 43.3%;
+	margin-left: 89%;
+}
+/*Адаптивные правила*/
+@media (max-width: 1230px) {
+	#link_details {		font-size: 15px;	}
+	#link_portfolio_count {		font-size: 12px;	}
+	#link_site_development {		font-size: 14px;	}
+	#link_infographics {		font-size: 15px;	}
+	#link_make_order {		font-size: 12px;	}
+}
+@media (max-width: 1100px) {
+	#link_details {		font-size: 14px; 	}
+	#link_portfolio_count { 		font-size: 11px; 	}
+	#link_site_development {		font-size: 13px;	}
+  .button.social {	  height: 6%;  }
+}
+@media (max-width: 1000px) {
+	#link_details {		font-size: 12px; 	}
+	#link_portfolio_count { 		font-size: 9px; 	}
+	#link_site_development {		font-size: 12px;	}
+	#link_make_order {		font-size: 11px;	}
+}
+@media (max-width: 900px) {
+	#link_details {		font-size: 11px; 	}
+	#link_portfolio_count { 		font-size: 9px; 	}
+	#link_site_development {		font-size: 10px;	}
+	#link_make_order {		font-size: 10px;	}
+	.button.social {	  height: 5%;  }
+
+}
+@media (max-width: 800px) {
+	.main_page.button {		font-weight: 300;	}
+	#link_details {		font-size: 10px; 	}
+	#link_portfolio_count { 		font-size: 8px; 	}
+	#link_make_order {		font-size: 8px;	}
+	#link_site_development {		font-size: 9px;	}
+	#link_infographics {		font-size: 13px;	}
+	#link_web_design{		font-size: 13px;	}
+	#link_portfolio{		font-size: 13px;	}
+	#link_contacts{		font-size: 13px;	}
+}
+@media (max-width: 700px) {
+	.main_page.button {		font-weight: 100;	}
+	#link_details {		font-size: 9px; 	}
+	#link_portfolio_count { 		font-size: 7px; 	}
+	#link_make_order {		font-size: 7px;	}
+	#link_site_development {		font-size: 8px;	}
+	#link_infographics {		font-size: 11px;	}
+	#link_web_design{		font-size: 11px;	}
+	#link_portfolio{		font-size: 11px;	}
+	#link_contacts{		font-size: 11px;	}
+}
+/*ENDOF Ссылки на главной */
+
+
+.underlined {
+	text-decoration: underline;
 }
