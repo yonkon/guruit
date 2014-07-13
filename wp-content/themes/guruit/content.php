@@ -99,4 +99,5 @@ if(false) {
 	<a class="main_page button social"  id="link_fb" onclick="alert('fb');">&nbsp;</a>
 	<a class="main_page button social"  id="link_tw" onclick="alert('tw');">&nbsp;</a>
 	<!-- Невидимые кнопки-->
+    <?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
 </div>

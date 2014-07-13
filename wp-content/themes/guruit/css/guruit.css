@@ -9,6 +9,19 @@
 }
 
 body {
+	background-size: cover;
+}
+.amazingcarousel-prev{
+    top: 90px !important;
+    right: 1180px !important;
+}
+.amazingcarousel-next{
+    top: 90px !important;
+    right: -40px !important;
+}
+.amazingcarousel-nav{
+    top: 180px !important;
+    right: 750px !important;
 	background-size: 100%;
 }
 
