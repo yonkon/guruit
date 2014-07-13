@@ -26,13 +26,13 @@ get_header(); ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php
 					if ( is_day() ) :
-						printf( __( 'Daily Archives: %s', 'twentytwelve' ), '<span>' . get_the_date() . '</span>' );
+						printf( __( 'Daily Archives: %s', 'guruit' ), '<span>' . get_the_date() . '</span>' );
 					elseif ( is_month() ) :
-						printf( __( 'Monthly Archives: %s', 'twentytwelve' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'twentytwelve' ) ) . '</span>' );
+						printf( __( 'Monthly Archives: %s', 'guruit' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'guruit' ) ) . '</span>' );
 					elseif ( is_year() ) :
-						printf( __( 'Yearly Archives: %s', 'twentytwelve' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'twentytwelve' ) ) . '</span>' );
+						printf( __( 'Yearly Archives: %s', 'guruit' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'guruit' ) ) . '</span>' );
 					else :
-						_e( 'Archives', 'twentytwelve' );
+						_e( 'Archives', 'guruit' );
 					endif;
 				?></h1>
 			</header><!-- .archive-header -->
@@ -49,7 +49,7 @@ get_header(); ?>
 
 			endwhile;
 
-			twentytwelve_content_nav( 'nav-below' );
+			guruit_content_nav( 'nav-below' );
 			?>
 
 		<?php else : ?>

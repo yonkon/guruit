@@ -37,7 +37,7 @@
 
 // Better focus for hidden submenu items for accessibility.
 ( function( $ ) {
-	$( '.main-navigation' ).find( 'a' ).on( 'focus.twentytwelve blur.twentytwelve', function() {
+	$( '.main-navigation' ).find( 'a' ).on( 'focus.guruit blur.guruit', function() {
 		$( this ).parents( '.menu-item, .page_item' ).toggleClass( 'focus' );
 	} );
 } )( jQuery );

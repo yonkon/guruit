@@ -12,8 +12,8 @@
  * @since Twenty Twelve 1.0
  */
 
-get_header(); ?>
-fergesrgsergsergser
+get_header(); <?if (false) {?>
+
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 
@@ -32,4 +32,5 @@ fergesrgsergsergser
 	</div><!-- #primary -->
 
 <?php get_sidebar( 'front' ); ?>
-<?php get_footer(); ?>
+<?php get_footer(); } ?>
+<h1>front-page</h1>

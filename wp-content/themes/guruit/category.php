@@ -1,15 +1,16 @@
-<?php
-/**
- * The template for displaying Category pages
- *
- * Used to display archive-type pages for posts in a category.
- *
- * @link http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
+<?php if (false) {
+	/**
+	 * The template for displaying Category pages
+	 *
+	 * Used to display archive-type pages for posts in a category.
+	 *
+	 * @link http://codex.wordpress.org/Template_Hierarchy
+	 *
+	 * @package WordPress
+	 * @subpackage Twenty_Twelve
+	 * @since Twenty Twelve 1.0
+	 */
+}
 
 get_header(); ?>
 
@@ -18,7 +19,7 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
+				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'guruit' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
 
 			<?php if ( category_description() ) : // Show an optional category description ?>
 				<div class="archive-meta"><?php echo category_description(); ?></div>
@@ -37,7 +38,7 @@ get_header(); ?>
 
 			endwhile;
 
-			twentytwelve_content_nav( 'nav-below' );
+			guruit_content_nav( 'nav-below' );
 			?>
 
 		<?php else : ?>
@@ -48,4 +49,5 @@ get_header(); ?>
 	</section><!-- #primary -->
 
 <?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_footer(); } ?>
+<h1> category</h1>

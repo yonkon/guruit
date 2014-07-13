@@ -14,7 +14,7 @@
  * @since Twenty Twelve 1.0
  */
 
-get_header(); ?>
+get_header(); if (false) {?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
@@ -27,4 +27,5 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+<?php get_footer(); }?>
+<h1>full-width</h1>
