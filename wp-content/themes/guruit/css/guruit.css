@@ -7,14 +7,10 @@
 			;
 	/*src: url('fonts/HeliosCondLight2.ttf');*/
 }
-html {
-    height: 100%;
-    width: 100%;
-}
+
 body {
 	background-size: cover;
-    height: 100%;
-    width: 100%;
+
 }
 
 
@@ -163,6 +159,10 @@ html, body, head, .main_page {
 	margin-top: 43.3%;
 	margin-left: 89%;
 }
+#bulb_on {
+     margin-top: 46.3%;
+     margin-left: 80%;
+ }
 /*Адаптивные правила*/
 /*@media (max-width: 1280px) {
 	#link_details {		font-size: 15px;	}
