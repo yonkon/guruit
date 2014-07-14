@@ -41,13 +41,14 @@ body {
 html, body, head, .main_page {
 	margin:0;
 	padding: 0;
+
 }
 
 .main_page.button {
 	cursor: pointer;
 	display: block;
 	position: absolute;
-	background: green;
+	background: none;
 	color: #33180e;
 	font-family:HeliosCondLight;
 	font-size:16px;

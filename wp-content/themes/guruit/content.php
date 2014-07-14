@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The default template for displaying content
@@ -105,6 +106,19 @@ if(false) {
   <div id="bulb_off"></div>
   <div id="lamp_on"></div>
   <div id="lamp_off"></div>
+
+
     <!-- Серединка-->
     <?php // echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
 </div>
+<!--<script type="javascript">
+    function disableSelection(target){
+        if (typeof target.onselectstart!="undefined") // для IE:
+            target.onselectstart=function(){return false}
+        else if (typeof target.style.MozUserSelect!="undefined") //для Firefox:
+            target.style.MozUserSelect="none"
+        else // для всех других (типа Оперы):
+            target.onmousedown=function(){return false}
+        target.style.cursor = "default"
+    }</script>
+<script type="javascript">  disableSelection(document.getElementById("link_contacts")); </script>-->
