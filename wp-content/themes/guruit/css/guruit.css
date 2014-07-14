@@ -38,10 +38,14 @@ body {
 	background-size: 100%;
 }
 
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
 html, body, head, .main_page {
 	margin:0;
 	padding: 0;
-
 }
 
 .main_page.button {
@@ -393,7 +397,22 @@ html, body, head, .main_page {
 }
 
 #center_content {
+	min-width: 1024px;
 	width: 70%;
-	margin: 5% auto;
-	background: #000000;
+	height: 100%;
+	margin: 0 auto;
+	background: url('../images/content2.png');
+	background-size: 67%;
+	background-position-x: 86%;
+	background-repeat: no-repeat;
+}
+
+#banner_header {
+	width: 100%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background-size: 100% auto;
+	height: 90%;
+	background-repeat: no-repeat;
 }

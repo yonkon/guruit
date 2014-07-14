@@ -1,3 +1,8 @@
 body {
 	background-image: url('../images/background-razmit.png') !important;
 }
+
+#banner_header {
+	background-image: url('../images/about_banner.png');
+}
+
