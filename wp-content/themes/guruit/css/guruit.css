@@ -397,22 +397,39 @@ html, body, head, .main_page {
 }
 
 #center_content {
+	/*min-width: 1024px;*/
+	/*width: 70%;*/
+	/*height: 100%;*/
+	/*margin: 0 auto;*/
+	/*background: url('../images/content2.png');*/
+	/*background-size: 67%;*/
+	/*background-position-x: 86%;*/
+	/*background-repeat: no-repeat;*/
 	min-width: 1024px;
-	width: 70%;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	background: url('../images/content2.png');
-	background-size: 67%;
-	background-position-x: 86%;
+	background-size: 55%;
+	background-position-x: 50%;
 	background-repeat: no-repeat;
 }
 
 #banner_header {
-	width: 100%;
+	/*width: 100%;
 	position: absolute;
 	padding: 0;
 	margin: 0;
 	background-size: 100% auto;
 	height: 90%;
+	background-repeat: no-repeat;*/
+	width: 100%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background-size: 101%;
+	height: 60%;
 	background-repeat: no-repeat;
+	margin-top: 4px;
+	margin-left: -6px;
 }
