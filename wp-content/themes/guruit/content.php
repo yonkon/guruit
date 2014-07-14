@@ -102,6 +102,9 @@ if(false) {
 	<!-- Невидимые кнопки-->
     <!-- Серединка-->
   <div id="bulb_on"></div>
+  <div id="bulb_off"></div>
+  <div id="lamp_on"></div>
+  <div id="lamp_off"></div>
     <!-- Серединка-->
     <?php // echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
 </div>

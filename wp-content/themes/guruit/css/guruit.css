@@ -161,21 +161,52 @@ html, body, head, .main_page {
 	margin-left: 89%;
 }
 #bulb_on {
-    margin-top: 24.3%;
-    margin-left: 46.9%;
-    width: 84px;
-    height: 40px;
-    display: block;
+    margin-top: 25%;
+    margin-left: 47.9%;
+    width: 54px;
+    height: 25px;
+    display: none;
     position: absolute;
     background: url("/wp-content/themes/guruit/images/on++.png");
     padding: 0;
     cursor: pointer;
+    background-size: 100%;
  }
 #bulb_off {
-    margin-top: 24.3%;
-    margin-left: 46.9%;
+    margin-top: 25%;
+    margin-left: 47.9%;
+    width: 54px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    background: url("/wp-content/themes/guruit/images/off++.png");
+    padding: 0;
+    cursor: pointer;
+    background-size: 100%;
+}
+#lamp_off {
+    margin-top: 18.3%;
+    margin-left: 45.8%;
+    width: 120px;
+    height: 86px;
+    display: block;
+    position: absolute;
+    background: url("/wp-content/themes/guruit/images/off-lamp.png");
+    padding: 0;
+    background-size: 100%;
+
+}
+#lamp_on {
+    margin-top: 18.3%;
+    margin-left: 45.8%;
+    width: 120px;
+    height: 86px;
     display: none;
     position: absolute;
+    background: url("/wp-content/themes/guruit/images/on-lamp.png");
+    padding: 0;
+    background-size: 100%;
+
 }
 /*Адаптивные правила*/
 /*@media (max-width: 1280px) {
@@ -205,9 +236,22 @@ html, body, head, .main_page {
         padding-top: 10px;
     }
     #bulb_on {
-        margin-left: 600px;
-        margin-top: 310px;
-    }#link_site_development {
+        margin-left: 613px;
+        margin-top: 323px;
+    }
+    #bulb_off {
+        margin-left: 613px;
+        margin-top: 323px;
+    }
+    #lamp_on {
+        margin-left: 584px;
+        margin-top: 234px;
+    }
+    #lamp_off {
+        margin-left: 584px;
+        margin-top: 234px;
+    }
+    #link_site_development {
          margin-top: 127px;
          margin-left: 223px;
      }
