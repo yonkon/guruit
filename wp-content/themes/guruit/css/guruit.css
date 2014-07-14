@@ -433,3 +433,9 @@ html, body, head, .main_page {
 	margin-top: 4px;
 	margin-left: -6px;
 }
+
+@media (max-width: 1038px) {
+	#banner_header {
+		width: 1024px;
+	}
+}
