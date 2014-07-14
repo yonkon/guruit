@@ -9,8 +9,9 @@
 }
 
 body {
-	background-size: cover;
-
+	background-size: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -160,9 +161,22 @@ html, body, head, .main_page {
 	margin-left: 89%;
 }
 #bulb_on {
-     margin-top: 46.3%;
-     margin-left: 80%;
+    margin-top: 24.3%;
+    margin-left: 46.9%;
+    width: 84px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    background: url("/wp-content/themes/guruit/images/on++.png");
+    padding: 0;
+    cursor: pointer;
  }
+#bulb_off {
+    margin-top: 24.3%;
+    margin-left: 46.9%;
+    display: none;
+    position: absolute;
+}
 /*Адаптивные правила*/
 /*@media (max-width: 1280px) {
 	#link_details {		font-size: 15px;	}
@@ -190,10 +204,13 @@ html, body, head, .main_page {
         height: 30px;
         padding-top: 10px;
     }
-    #link_site_development {
-        margin-top: 127px;
-        margin-left: 223px;
-    }
+    #bulb_on {
+        margin-left: 600px;
+        margin-top: 310px;
+    }#link_site_development {
+         margin-top: 127px;
+         margin-left: 223px;
+     }
     #link_web_design {
         margin-top: 306px;
         margin-left: 265px;
