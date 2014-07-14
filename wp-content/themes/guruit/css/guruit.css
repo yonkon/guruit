@@ -390,3 +390,9 @@ html, body, head, .main_page {
 .underlined {
 	text-decoration: underline;
 }
+
+#center_content {
+	width: 70%;
+	margin: 5% auto;
+	background: #000000;
+}

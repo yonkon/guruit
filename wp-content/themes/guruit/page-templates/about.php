@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full-width Page Template, No Sidebar
+ * Template Name: About Page
  *
  * Description: Twenty Twelve loves the no-sidebar look as much as
  * you do. Use this page template to remove the sidebar from any page.
@@ -15,16 +15,12 @@
  */
 
 get_header(); if (true) {?>
-
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
+>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css" />
 
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'content', 'about' ); ?>
 <!--				--><?php //comments_template( '', true ); ?>
 			<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
 
 <?php get_footer(); }?>
