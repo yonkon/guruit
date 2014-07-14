@@ -7,10 +7,26 @@
 			;
 	/*src: url('fonts/HeliosCondLight2.ttf');*/
 }
-
+html {
+    height: 100%;
+    width: 100%;
+}
 body {
 	background-size: cover;
+    height: 100%;
+    width: 100%;
 }
+
+
+#ms_bgsize_fix {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/wp-content/uploads/2014/07/Background.png',sizingMethod='scale')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='/wp-content/uploads/2014/07/Background.png', sizingMethod='scale')";
+}
+
 .amazingcarousel-prev{
     top: 90px !important;
     right: 1180px !important;
@@ -34,7 +50,7 @@ html, body, head, .main_page {
 	cursor: pointer;
 	display: block;
 	position: absolute;
-	background: none;
+	background: green;
 	color: #33180e;
 	font-family:HeliosCondLight;
 	font-size:16px;
@@ -43,7 +59,7 @@ html, body, head, .main_page {
 	width: 10%;
 	text-align: center;
 	height: 4.6%;
-	padding-top: 0.5%;
+	padding-top: 0.8%;
 	vertical-align: middle;
 
 }
@@ -93,7 +109,8 @@ html, body, head, .main_page {
 	margin-left: 46.9%;
 	color: #004442;
 	width: 6.3%;
-	height: 3%;
+	height: 3.7%;
+    padding-top: 0.4%;
 }
 
 #link_download {
@@ -147,34 +164,141 @@ html, body, head, .main_page {
 	margin-left: 89%;
 }
 /*Адаптивные правила*/
-@media (max-width: 1230px) {
+/*@media (max-width: 1280px) {
 	#link_details {		font-size: 15px;	}
 	#link_portfolio_count {		font-size: 12px;	}
 	#link_site_development {		font-size: 14px;	}
 	#link_infographics {		font-size: 15px;	}
 	#link_make_order {		font-size: 12px;	}
-}
-@media (max-width: 1100px) {
+}*/
+/*@media (max-width: 1100px) {
 	#link_details {		font-size: 14px; 	}
 	#link_portfolio_count { 		font-size: 11px; 	}
 	#link_site_development {		font-size: 13px;	}
   .button.social {	  height: 6%;  }
-}
-@media (max-width: 1000px) {
+}*/
+@media (max-width: 1280px) {
 	#link_details {		font-size: 12px; 	}
 	#link_portfolio_count { 		font-size: 9px; 	}
 	#link_site_development {		font-size: 12px;	}
 	#link_make_order {		font-size: 11px;	}
+    
+    body {background-size: 1280px 660px}
+
+    .main_page.button {
+        width: 126px;
+        height: 30px;
+        padding-top: 10px;
+    }
+    #link_site_development {
+        margin-top: 127px;
+        margin-left: 223px;
+    }
+    #link_web_design {
+        margin-top: 306px;
+        margin-left: 265px;
+    }
+    #link_infographics {
+        margin-top: 465px;
+        margin-left: 580px;
+    }
+    #link_seo {
+        margin-top: 265px;
+        margin-left: 817px;
+    }
+    #link_portfolio {
+        margin-top: 119px;
+        margin-left: 914px;
+    }
+
+    #link_make_order {
+        margin-top: 565px;
+        margin-left: 750px;
+        font-family: Arial;
+        color: #a5715e;
+        font-size: 13px;
+        width: 96px;
+        height: 20px;
+        padding-top: 10px;
+    }
+    #link_contacts {
+        margin-top: 368px;
+        margin-left: 994px;
+    }
+
+    #link_details {
+        margin-top: 361px;
+        margin-left: 600px;
+        color: #004442;
+        width: 79px;
+        height: 20px;
+        padding-top: 10px;
+    }
+
+    #link_download {
+        width: 50px;
+        margin-top: 211px;
+        margin-left: 389px;
+        font-family: Helvetica;
+        font-size: 12px;
+        border-bottom: 1px dashed;
+        padding-top: 5px;
+        height: 15px;
+    }
+    #link_download:hover {
+        border-bottom: none;
+    }
+
+
+    #link_portfolio_count {
+        margin-top: 526px;
+        margin-left: 807px;
+        font-family: Helvetica;
+        font-size: 12px;
+        width: 88px;
+        color: white;
+    }
+
+    #link_email {
+        margin-top: 440px;
+        margin-left: 1130px;
+        width: 57px;
+        height: 68px;
+        color: transparent;
+        background: none;
+    }
+
+    .button.social {
+        width: 47px;
+        height: 88px;
+        color: transparent;
+        border-radius: 2em;
+    }
+    #link_vk {
+        margin-top: 567px;
+        margin-left: 1067px;
+        height: 40px;
+    }
+    #link_tw {
+        margin-top: 597px;
+        margin-left: 1104px;
+        height: 40px;
+    }
+    #link_fb {
+        margin-top: 559px;
+        margin-left: 1141px;
+        height: 40px;
+    }
 }
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
 	#link_details {		font-size: 11px; 	}
 	#link_portfolio_count { 		font-size: 9px; 	}
 	#link_site_development {		font-size: 10px;	}
 	#link_make_order {		font-size: 10px;	}
 	.button.social {	  height: 5%;  }
 
-}
-@media (max-width: 800px) {
+}*/
+/*@media (max-width: 800px) {
 	.main_page.button {		font-weight: 300;	}
 	#link_details {		font-size: 10px; 	}
 	#link_portfolio_count { 		font-size: 8px; 	}
@@ -196,7 +320,9 @@ html, body, head, .main_page {
 	#link_portfolio{		font-size: 11px;	}
 	#link_contacts{		font-size: 11px;	}
 	#link_seo{		font-size: 11px;	}
-}
+}*/
+
+
 /*ENDOF Ссылки на главной */
 
 
