@@ -25,19 +25,6 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(  src='/wp-content/uploads/2014/07/Background.png', sizingMethod='scale')";
 }
 
-.amazingcarousel-prev{
-    top: 90px !important;
-    right: 1180px !important;
-}
-.amazingcarousel-next{
-    top: 90px !important;
-    right: -40px !important;
-}
-.amazingcarousel-nav{
-    top: 180px !important;
-    right: 750px !important;
-	background-size: 100%;
-}
 
 html, body {
 	width: 100%;
@@ -64,6 +51,7 @@ html, body, head, .main_page {
 	height: 4.6%;
 	padding-top: 0.8%;
 	vertical-align: middle;
+    text-decoration: none;
 
 }
 .main_page.button.brown {
