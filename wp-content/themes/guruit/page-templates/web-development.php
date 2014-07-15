@@ -6,7 +6,7 @@
  * @subpackage guruit
  * @since guruit 0.1
  */
-
+wp_enqueue_script( 'jquery');
 get_header(); if (true) {?>
 >
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/web_development.css" />
