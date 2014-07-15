@@ -435,12 +435,12 @@ html, body, head, .main_page {
 	margin-top: 0.1%;
 	margin-left: 3.6vw
 }
-@media (max-width: 1038px) {
-	#banner_header {
-		width: 1024px;
-		height: 290px;
-	}
-}
+/*@media (max-width: 1038px) {*/
+	/*#banner_header {*/
+		/*width: 1024px;*/
+		/*height: 290px;*/
+	/*}*/
+/*}*/
 
 .button_order_service {
 	font: Tahome bold;
