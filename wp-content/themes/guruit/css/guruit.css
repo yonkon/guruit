@@ -220,6 +220,17 @@ html, body, head, .main_page {
     background-size: 100%;
 
 }
+#sifri {
+    margin-top: 41.6%;
+    margin-left: 58.4%;
+    width: 4.5%;
+    height: 4.5%;
+    display: block;
+    position: absolute;
+    background: url("/wp-content/themes/guruit/images/sifri.png");
+    padding: 0;
+    background-size: 100%;
+}
 /*Адаптивные правила*/
 /*@media (max-width: 1280px) {
 	#link_details {		font-size: 15px;	}
@@ -246,6 +257,14 @@ html, body, head, .main_page {
         width: 126px;
         height: 30px;
         padding-top: 10px;
+    }
+    #sifri {
+        margin-left: 743px;
+        margin-top: 532px;
+        position: absolute;
+        padding: 0;
+        width: 63px;
+        height: 30px;
     }
     #bulb_on {
         margin-left: 613px;
