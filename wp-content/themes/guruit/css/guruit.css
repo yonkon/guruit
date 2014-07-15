@@ -140,10 +140,10 @@ html, body, head, .main_page {
 }
 
 #link_email {
-	margin-top: 37%;
-	margin-left: 89%;
-	width: 4.5%;
-	height: 9%;
+    margin-top: 35%;
+    margin-left: 88.5%;
+    width: 4.5%;
+    height: 16%;
 	color: transparent;
 	background: none;
 }
@@ -180,26 +180,32 @@ html, body, head, .main_page {
  }
 #bulb_off {
     margin-top: 25%;
-    margin-left: 47.9%;
-    width: 54px;
-    height: 25px;
+    margin-left: 47.5%;
+    /*width: 54px;*/
+    /*height: 25px;*/
+    width: 5%;
+    height: 5%;
     display: block;
     position: absolute;
     background: url("/wp-content/themes/guruit/images/off++.png");
     padding: 0;
     cursor: pointer;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 #lamp_off {
     margin-top: 18.3%;
     margin-left: 45.8%;
-    width: 120px;
-    height: 86px;
+    /*width: 120px;*/
+    /*height: 86px;*/
+    width: 9%;
+    height: 13.5%;
     display: block;
     position: absolute;
     background: url("/wp-content/themes/guruit/images/off-lamp.png");
     padding: 0;
     background-size: 100%;
+    background-repeat: no-repeat;
 
 }
 #lamp_on {
@@ -244,18 +250,28 @@ html, body, head, .main_page {
     #bulb_on {
         margin-left: 613px;
         margin-top: 323px;
+
     }
     #bulb_off {
-        margin-left: 613px;
+        margin-left: 606px;
         margin-top: 323px;
+        position: absolute;
+        padding: 0;
+        width: 63px;
+        height: 30px;
     }
     #lamp_on {
         margin-left: 584px;
         margin-top: 234px;
+
     }
     #lamp_off {
         margin-left: 584px;
         margin-top: 234px;
+        position: absolute;
+        padding: 0;
+        width: 113px;
+        height: 83px;
     }
     #link_site_development {
          margin-top: 127px;
