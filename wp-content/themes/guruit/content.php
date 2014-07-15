@@ -80,16 +80,16 @@ if(false) {
 <div class="main_page content">
 <!--	Коричневые кнопки-->
 	<a class="main_page button" id="link_site_development">Разработка сайтов</a>
-	<a class="main_page button" id="link_web_design">Веб-дизайн</a>
+	<a class="main_page button" id="link_web_design" href="/design">Веб-дизайн</a>
 	<a class="main_page button" id="link_infographics" >Инфографика</a>
 	<a class="main_page button" id="link_seo" >SEO</a>
 	<a class="main_page button" id="link_portfolio" >Портфолио</a>
-	<a class="main_page button" id="link_contacts" >Контакты</a>
+	<a class="main_page button" id="link_contacts"  >Контакты</a>
 
 	<a class="main_page button" id="link_make_order" >Заказать услугу</a>
 <!--	Коричневые кнопки - КОНЕЦ -->
 <!-- Синие кнопки -->
-	<a class="main_page button" id="link_details" >Подробнее</a>
+	<a class="main_page button" id="link_details" href="/about" >Подробнее</a>
 <!-- Синие кнопки - КОНЕЦ -->
 <!-- Ссылки-->
 	<a class="main_page button" id="link_download" >Скачать</a>
@@ -106,7 +106,7 @@ if(false) {
   <div id="bulb_off"></div>
   <div id="lamp_on"></div>
   <div id="lamp_off"></div>
-
+  <div id="sifri"></div>
 
     <!-- Серединка-->
     <?php // echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
