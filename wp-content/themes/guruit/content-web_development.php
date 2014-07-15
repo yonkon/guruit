@@ -1,5 +1,6 @@
 <div id="center_content">
 	<div id="banner_header">
+		<a class="button_order_service">Заказать услугу</a>
 		<div id="services_list_container">
 			<ul id="services_list">
 				<li class="site_development_service">Вэб программирование</li>

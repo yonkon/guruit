@@ -2,16 +2,9 @@
 /**
  * Template Name: About Page
  *
- * Description: Twenty Twelve loves the no-sidebar look as much as
- * you do. Use this page template to remove the sidebar from any page.
- *
- * Tip: to remove the sidebar from all posts and pages simply remove
- * any active widgets from the Main Sidebar area, and the sidebar will
- * disappear everywhere.
- *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage guruit
+ * @since guruit 0.1
  */
 
 get_header(); if (true) {?>
