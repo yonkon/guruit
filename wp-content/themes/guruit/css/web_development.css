@@ -24,7 +24,7 @@ li.site_development_service {
 	padding: 0 0 0 5%;
 	background: url('../images/li_knot.png') no-repeat;
 	float: left;
-	font-size: 2.3vmin;
+	font-size: 2vmin;
 	cursor: pointer;
 }
 
@@ -49,13 +49,18 @@ li.site_development_service {
 	background: url('../images/service_tooltip.png') 100%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	padding-left: 1%;
+	padding-left: 1.5%;
+	padding-right: 1%;
 	width: 10vw;
-	height: 10vh;
+	height: auto;
+	max-width: 20vw;
+	max-height: 30vh;
 	z-index: 2;
 	display: block;
 	position: absolute;
 	border 1px solid darkslategrey;
+	word-break: `break-word;
+	overflow: hidden;
 
 	/*border-radius: 1vmin;*/
 	/*box-shadow: -2px 2px 2px black;*/
@@ -74,3 +79,119 @@ li.site_development_service {
 	/*-o-transform: rotate(45deg); *//* Для Opera */
 	/*transform: rotate(45deg);*/
 /*}*/
+
+#mail_box {
+	width: 15vw;
+	margin-left: 20vw;
+	height: 36vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#mail_box.gray {
+	background-image: url('../images/mail_box_gray.png');
+}
+
+#content_article {
+	position: absolute;
+	margin-top: 50vh;
+	margin-left: 30vw;
+	width: 40vw;
+	height:35vh;
+}
+
+.mail_box_header {
+	position: absolute;
+	font-size: 2vh;
+	display: block;
+	width: 14vw;
+	background: none;
+	margin-left: 0.5vw;
+	padding-top: 1vh;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.mail_box_label_email {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 1vw;
+	display: block;
+	width: 14vw;
+	background: none;
+	margin-left: 0.5vw;
+	text-align: center;
+	padding-top: 4.5vh;
+}
+
+.mail_box_input_email {
+	width: 10.9vw;
+	height: 2.2vh;
+	margin-left: 2.1vw;
+	margin-top: 7.9vh;
+	background: none;
+	border: none;
+	font-size: 2vh;
+	padding: 0;
+	position: absolute;
+}
+.mail_box_label_message {
+
+	font-family: sans-serif;
+	font-size: 1vw;
+	display: block;
+	width: 14vw;
+	background: none;
+	margin-left: 0.5vw;
+	text-align: center;
+	margin-top: 11.5vh;
+	position: absolute;
+}
+
+.mail_box_input_message {
+	width: 11vw;
+	height: 14vh;
+	margin-left: 2.1vw;
+	margin-top: 14vh;
+	border: none;
+	padding: 0;
+	background: none;
+	resize: none;
+}
+
+#content_page_header {
+	display: block;
+	position: absolute;
+	width: 19vw;
+	height: 4vh;
+	padding: 2vh 0 0 1vw;
+}
+
+#content_page_description {
+	display: block;
+	position: absolute;
+	width: 19vw;
+	height: 29vh;
+	padding: 2.5vh 0.5vw 0 1vw;
+	margin-top: 4vh;
+	overflow: overlay;
+	resize: none;
+	font-size: 2vmin;
+}
+
+.tooltip-text {
+	display: none;
+}
+
+#mail_box_submit {
+	width: 7.5vw;
+	padding: 0;
+	height: 3vh;
+	display: block;
+	margin-left: 3.8vw;
+	position: absolute;
+	margin-top: 1.7vh;
+	border: none;
+	background: none;
+	box-shadow: none;
+}

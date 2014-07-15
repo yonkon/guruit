@@ -451,3 +451,7 @@ html, body, head, .main_page {
 	cursor: pointer;
 	color: #f5f5f5;
 }
+
+.tooltip_text {
+	display: none;
+}
