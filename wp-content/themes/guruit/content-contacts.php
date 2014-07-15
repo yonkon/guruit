@@ -1,28 +1,5 @@
 <div id="center_content">
 	<div id="banner_header">
-		<a class="button_order_service">Заказать услугу</a>
-		<div id="services_list_container">
-			<ul id="services_list">
-				<li class="site_development_service"  id="site_development_service_0">Вэб программирование</li>
-				<li class="site_development_service"  id="site_development_service_1">Системное программирование</li>
-				<li class="site_development_service"  id="site_development_service_2">Графический дизайн</li >
-				<li class="site_development_service"  id="site_development_service_3">Верстка сайтов любой сложности</li>
-				<li class="site_development_service"  id="site_development_service_4">Сайт "под ключ"</li>
-				<li class="site_development_service"  id="site_development_service_5">SMM</li>
-				<li class="site_development_service"  id="site_development_service_6">Продвижение</li>
-				<li class="site_development_service"  id="site_development_service_7">Вирусная реклама</li>
-				<li class="site_development_service"  id="site_development_service_8">Контент менеджмент</li>
-				<p class="tooltip-text"  id="site_development_service_0_tooltip"><span style="color:green;" >Описание для</span> Вэб программирование</p>
-				<p class="tooltip-text"  id="site_development_service_1_tooltip"><span style="color:green;" >Описание для</span> Системное программирование</p>
-				<p class="tooltip-text"  id="site_development_service_2_tooltip"><span style="color:green;" >Описание для</span> Графический дизайн</p >
-				<p class="tooltip-text"  id="site_development_service_3_tooltip"><span style="color:green;" >Описание для</span> Верстка сайтов любой сложности</p>
-				<p class="tooltip-text"  id="site_development_service_4_tooltip"><span style="color:green;" >Описание для</span> Сайт "под ключ"</p>
-				<p class="tooltip-text"  id="site_development_service_5_tooltip"><span style="color:green;" >Описание для</span> SMM</p>
-				<p class="tooltip-text"  id="site_development_service_6_tooltip"><span style="color:green;" >Описание для</span> Продвижение</p>
-				<p class="tooltip-text"  id="site_development_service_7_tooltip"><span style="color:green;" >Описание для</span> Вирусная реклама</p>
-				<p class="tooltip-text"  id="site_development_service_8_tooltip"><span style="color:green;" >Описание для</span> Контент менеджмент</p>
-			</ul>
-		</div>
 	</div>
 	<div id="content_article">
 		<h1 id="content_page_header" class="h1">Как мы работаем?</h1>
