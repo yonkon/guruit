@@ -59,8 +59,8 @@ li.site_development_service {
 	z-index: 2;
 	display: block;
 	position: absolute;
-	border 1px solid darkslategrey;
-	word-break: `break-word;
+	border: 1px solid darkslategrey;
+	word-break: break-word;
 	overflow: hidden;
 
 	/*border-radius: 1vmin;*/
