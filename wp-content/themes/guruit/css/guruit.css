@@ -409,17 +409,7 @@ html, body, head, .main_page {
 }
 
 #banner_header {
-	/*width: 100vmax;*/
-	/*height: 60vmax;*/
-	/*position: absolute;*/
-	/*padding: 0;*/
-	/*margin: 0;*/
-	/*background-size: 100vw 60vh;*/
-	/*background-repeat: no-repeat;*/
-	/*margin-top: 4px;*/
-	/*margin-left: -6px;*/
-
-	width: 100vw;
+	width: 96vw;
 	height: 100vh;
 	position: absolute;
 	padding: 0;
@@ -427,7 +417,7 @@ html, body, head, .main_page {
 	background-size: 92vw 48vh;
 	background-repeat: no-repeat;
 	margin-top: 0.1%;
-	margin-left: 3.6%;
+	margin-left: 3.6vw
 }
 @media (max-width: 1038px) {
 	#banner_header {
