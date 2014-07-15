@@ -15,5 +15,17 @@
 			</ul>
 		</div>
 	</div>
+	<div id="content_article">
+		<h1 class="h1">Как мы работаем?</h1>
+		<div id="mail_box" class="gray">
+			<form action="/ask">
+				<h2 class="mail_box_header">Задайте нам вопрос</h2>
+				<label class="mail_box_label_email">Ваш e-mail</label>
+				<input type="email" class="mail_box_input_email" name="email">
+				<label class="mail_box_label_message">Спрашивайте</label>
+				<input type="text" multiple  class="mail_box_input_message" name="email">
+			</form>
+		</div>
+	</div>
 </div>
 <?php
