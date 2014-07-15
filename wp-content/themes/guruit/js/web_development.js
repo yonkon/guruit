@@ -9,18 +9,16 @@ if(typeof $ == 'function') {
         $('li.site_development_service').each(function (i, el) {
             $el = $(el);
             $el.hover(function(e) {
-                if($tooltip_div.hasClass('faded')) {
-                    $tooltip_div.fadeIn(250);
-                }
+                $tooltip_div.html(
+                    ($('#'+e.target.id+'_tooltip').html())
+                );
+                $tooltip_div.show();
                 tooltip_div.style.marginLeft = 100*e.pageX/window.innerWidth - 35 +'vw';
                 tooltip_div.style.marginTop = 100*e.pageY/window.innerHeight  - 25 +'vh';
                 $el.parent().append(tooltip_div);
-                if(!$tooltip_div.hasClass('faded')) {
-                    $tooltip_div.fadeOut(2000, 500);
-                    $tooltip_div.addClass('faded');
-                } else {
-                    $tooltip_div.removeClass('faded');
-                }
+            });
+            $el.mouseout(function(e) {
+                    $tooltip_div.hide();
             });
         });
     });

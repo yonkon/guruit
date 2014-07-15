@@ -5,7 +5,6 @@ body {
 
 #banner_header {
 	background-image: url('../images/about_banner_empty.png');
-
 }
 
 #services_list_container {
@@ -25,7 +24,7 @@ li.site_development_service {
 	padding: 0 0 0 5%;
 	background: url('../images/li_knot.png') no-repeat;
 	float: left;
-	font-size: 2.3vmin;
+	font-size: 2vmin;
 	cursor: pointer;
 }
 
@@ -83,10 +82,11 @@ li.site_development_service {
 
 #mail_box {
 	width: 15vw;
-	margin-left: 22vw;
+	margin-left: 55vw;
 	height: 36vh;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	margin-top: 4vh;
 }
 
 #mail_box.gray {
@@ -95,10 +95,13 @@ li.site_development_service {
 
 #content_article {
 	position: absolute;
-	margin-top: 50vh;
-	margin-left: 30vw;
-	width: 40vw;
-	height:35vh;
+	margin-top: 47vh;
+	margin-left: 0vw;
+	width: 100vw;
+	height: 48vh;
+	background: url('../images/contacts_footer.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .mail_box_header {
