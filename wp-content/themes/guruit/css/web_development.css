@@ -5,6 +5,7 @@ body {
 
 #banner_header {
 	background-image: url('../images/about_banner_empty.png');
+
 }
 
 #services_list_container {
@@ -55,7 +56,7 @@ li.site_development_service {
 	z-index: 2;
 	display: block;
 	position: absolute;
-	border 1px solid darkslategrey;
+	border: 1px solid darkslategrey;
 
 	/*border-radius: 1vmin;*/
 	/*box-shadow: -2px 2px 2px black;*/

@@ -81,7 +81,7 @@ if(false) {
 <!--	Коричневые кнопки-->
 	<a class="main_page button" id="link_site_development">Разработка сайтов</a>
 	<a class="main_page button" id="link_web_design" href="/design">Веб-дизайн</a>
-	<a class="main_page button" id="link_infographics" >Инфографика</a>
+	<a class="main_page button" id="link_infographics" href="/infographics" >Инфографика</a>
 	<a class="main_page button" id="link_seo" >SEO</a>
 	<a class="main_page button" id="link_portfolio" >Портфолио</a>
 	<a class="main_page button" id="link_contacts"  >Контакты</a>
