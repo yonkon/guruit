@@ -35,6 +35,7 @@ li.site_development_service {
     margin-top: 29vh;
     margin-left: 28.6vw;
     -webkit-transform: rotate(10deg);
+    cursor: pointer;
 }
 #bulb_off {
 
