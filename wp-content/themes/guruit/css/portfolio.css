@@ -97,6 +97,14 @@ li.site_development_service {
 	width: 50vw;
 }
 
+.amazingcarousel-list-container {
+	padding: 0 !important;
+}
+
+#content_page_header.h1 {
+	font-size: 5vmin;
+}
+
 #top_carousel {
 	position: absolute;
 	top: 25vh;
