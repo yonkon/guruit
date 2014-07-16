@@ -118,3 +118,8 @@ li.site_development_service {
     font-size: 1vw;
     font-weight: bold;
 }
+.amazingcarousel-item{
+    width: 17vw !important;
+    max-width: 17vw !important;
+    height: 30vh !important;
+}
