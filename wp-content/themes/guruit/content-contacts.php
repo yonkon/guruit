@@ -9,9 +9,10 @@
 				<input type="email" class="mail_box_input_email" name="email">
 				<label class="mail_box_label_message">Спрашивайте</label>
 				<textarea class="mail_box_input_message" name="email">&nbsp;</textarea>
-				<input type="submit" name="mail_box" id="mail_box_submit" value="&nbsp;">
+				<input type="submit" name="mail_box" id="mail_box_submit" value="Отправить">
 			</form>
 		</div>
 	</div>
 </div>
+<a id="close" href="/"> </a>
 <?php

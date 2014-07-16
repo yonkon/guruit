@@ -108,8 +108,6 @@ if(false) {
   <div id="lamp_off"></div>
   <div id="sifri"></div>
 
-    <!-- Серединка-->
-    <?php // echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
 </div>
 <!--<script type="javascript">
     function disableSelection(target){

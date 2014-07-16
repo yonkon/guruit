@@ -1,0 +1,189 @@
+body {
+	background-image: url('../images/background-razmit.png') !important;
+	background-size: 100vw 100vh;
+	background-attachment: fixed !important;
+}
+
+#center_content {
+	background: url('../images/portfolio_top.png') no-repeat;
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	background-size: 100vw 104vh;
+}
+
+li.site_development_service {
+	display: block;
+	width: 40%;
+	margin: 0.5vh 1%;
+	padding: 0 0 0 5%;
+	background: url('../images/li_knot.png') no-repeat;
+	float: left;
+	font-size: 2vmin;
+	cursor: pointer;
+}
+
+.button_order_service {
+	font-family: Myriad Pro;
+	margin-left: 57.1vw;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	display: block;
+	background: none;
+	cursor: pointer;
+	color: white;
+	margin-top: 19.6vh;
+	text-shadow: 0px 1px 2px #670;
+	font-size: 1vw;
+	font-weight: bold;
+}
+
+#content_article {
+	position: absolute;
+	top: 44vh;
+	min-height: 54vh;
+	margin-left: 24.7vw;
+	width: 50.6vw;
+	background: url('../images/portfolio_midB.png');
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+
+#content_page_header {
+	width: 60%;
+	position: relative;
+	display: inline-block;
+}
+
+#content_page_description {
+	display: block;
+	position: absolute;
+	width: 18vw;
+	height: 29vh;
+	padding: 2.5vh 1vw 0 1vw;
+	margin-top: 4vh;
+	overflow: overlay;
+	resize: none;
+	font-size: 2vmin;
+}
+#content_article_text img{
+	max-width: 100%;
+}
+
+#content_footer {
+	position: absolute;
+	bottom: 6vh;
+	min-height: 7vh;
+	margin-left: 0;
+	width: 100%;
+	background: url('../images/portfolio_bot.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+
+#top_carousel, .wonderplugincarousel {
+	height: 22vh;
+}
+.wonderplugincarousel {
+	position: absolute;
+	margin: 0vh 21vw;
+	width: 50vw;
+	display: block;
+}
+
+.amazingcarousel-list{
+	width: 50vw;
+}
+
+#top_carousel {
+	position: absolute;
+	top: 25vh;
+	width: 50vw;
+	left: 21.5vw;
+	background: none;
+}
+
+.amazingcarousel-item, .amazingcarousel-item-container {
+	height: 23vh;
+}
+
+#sifri {
+	background: url("/wp-content/themes/guruit/images/sifri2.png");
+	margin-left: 41vw;
+	margin-top: 17.5vh;
+	position: absolute;
+	padding: 0;
+	background-size: 100% 100%;
+	height: 5vh;
+	width: 4vw;
+}
+
+#link_add_to_portfolio {
+	margin-left: 52vw;
+	margin-top: 17.5vh;
+	position: absolute;
+	padding: 0;
+	background-size: 100% 100%;
+	height: 5vh;
+	width: 16vw;
+	font-size: 2.3vmin
+}
+
+#content_article_text {
+	margin-left: 3vw;
+	margin-right: 1vw;
+	width: 44vw;
+	padding-bottom: 15vh;
+}
+
+#link_prev_top, #link_next_top, #link_prev_bottom, #link_next_bottom {
+	display: inline-block;
+	color: #000000;
+	font-family: "Myriad Pro";
+	font-weight: bolder;
+	text-transform: lowercase;
+}
+
+
+#link_prev_top:before, #link_prev_bottom:before, #link_next_top:after, #link_next_bottom:after {
+	content: " ";
+	background-size: 100% 100%;
+	width: 1ex;
+	height: 1ex;
+	display: inline-block;
+}
+
+#link_prev_top:before, #link_prev_bottom:before {
+	background: url("../images/arrow_prev.png");
+}
+#link_next_top:after, #link_next_bottom:after {
+	background: url("../images/arrow_next.png");
+}
+
+#links_nav_bottom {
+	bottom: 6vh;
+	position: absolute;
+	margin: 0 auto;
+	left: 21vw;
+}
+
+#link_oprtfolio {
+	position: absolute;
+	margin-left: 46vw;
+	top: 1vh;
+	width: 8vw;
+	height: 5vh;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#close {
+	width: 1.1vw;
+	height: 2.2vh;
+	border-radius: 2vmin;
+	position: absolute;
+	margin-top: -98.8vh;
+	margin-left: 74.4vw;
+}

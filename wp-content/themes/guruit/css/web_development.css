@@ -59,27 +59,10 @@ li.site_development_service {
 	z-index: 2;
 	display: block;
 	position: absolute;
-	border: 1px solid darkslategrey;
 	word-break: break-word;
 	overflow: hidden;
 
-	/*border-radius: 1vmin;*/
-	/*box-shadow: -2px 2px 2px black;*/
 }
-/*.service_tooltip:before {*/
-	/*content: '<';*/
-	/*width: 1.5vmin;*/
-	/*height: 1.5vmin;*/
-	/*background: white;*/
-	/*border 1px solid darkslategrey;*/
-	/*box-shadow: -2px 2px 2px black;*/
-	/*display: block;*/
-	/*-moz-transform: rotate(45deg); *//* Для Firefox */
-	/*-ms-transform: rotate(45deg); *//* Для IE */
-	/*-webkit-transform: rotate(45deg); *//* Для Safari, Chrome, iOS */
-	/*-o-transform: rotate(45deg); *//* Для Opera */
-	/*transform: rotate(45deg);*/
-/*}*/
 
 #mail_box {
 	width: 15vw;

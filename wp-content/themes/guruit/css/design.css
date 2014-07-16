@@ -123,3 +123,29 @@ li.site_development_service {
     max-width: 17vw !important;
     height: 30vh !important;
 }
+
+.list-item-container {
+	padding: 16px 0 4px 0
+}
+
+.amazing-carousel-item {
+	display: block;
+	position: relative;
+	background-image: none;
+	background-color: transparent;
+	/*margin: 0px;*/
+	/*padding: 0px;*/
+	float: left;
+	width: 15vw;
+}
+
+#wonderplugincarousel-1 .amazingcarousel-item-container {
+	width: 15vw;
+	text-align: center;
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-moz-box-shadow: 0px 0px 5px 1px rgba(96, 96, 96, 0.1);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(96, 96, 96, 0.1);
+	box-shadow: 0px 0px 5px 1px rgba(96, 96, 96, 0.1);
+}

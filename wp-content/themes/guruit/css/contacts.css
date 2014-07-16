@@ -4,7 +4,17 @@ body {
 }
 
 #banner_header {
-	background-image: url('../images/about_banner_empty.png');
+	background-image: url('../images/contscts1.png');
+	background-position: 0vw 4.8vh;
+	width: 96vw;
+	height: 100vh;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	background-size: 92vw 57vh;
+	background-repeat: no-repeat;
+	margin-top: 0.1%;
+	margin-left: 3.6vw;
 }
 
 #services_list_container {
@@ -62,23 +72,7 @@ li.site_development_service {
 	word-break: `break-word;
 	overflow: hidden;
 
-	/*border-radius: 1vmin;*/
-	/*box-shadow: -2px 2px 2px black;*/
 }
-/*.service_tooltip:before {*/
-	/*content: '<';*/
-	/*width: 1.5vmin;*/
-	/*height: 1.5vmin;*/
-	/*background: white;*/
-	/*border 1px solid darkslategrey;*/
-	/*box-shadow: -2px 2px 2px black;*/
-	/*display: block;*/
-	/*-moz-transform: rotate(45deg); *//* Для Firefox */
-	/*-ms-transform: rotate(45deg); *//* Для IE */
-	/*-webkit-transform: rotate(45deg); *//* Для Safari, Chrome, iOS */
-	/*-o-transform: rotate(45deg); *//* Для Opera */
-	/*transform: rotate(45deg);*/
-/*}*/
 
 #mail_box {
 	width: 15vw;
@@ -188,6 +182,11 @@ li.site_development_service {
 }
 
 #mail_box_submit {
+	color: white;
+	font-family: Myriad Pro;
+	font-weight: 600;
+	font-size: 2.34vh;
+
 	width: 7.5vw;
 	padding: 0;
 	height: 3vh;
