@@ -1,19 +1,23 @@
 <div id="center_content">
+    <div id="a123"> </div>
 <!--    <p id="title">Заголовок </p>-->
 	<div id="banner_header">
         <a class="button_order_service">Заказать услугу</a>
 	</div>
 </div>
 <div id="title">
-    <h1>Титулка!!!</h1>
+    <h1>Инфографика в 3 шага</h1>
 </div>
-<div id="content"> <img src="/wp-content/themes/guruit/images/li_knot.png"> asdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgasasdf sdghdgh sgasdf sdfhjgfhgkdgf retrtjtjhsrgas
+<div id="text">
+    Мы оказываем комплексные услуги по созданию сайтов и интернет-магазинов различной сложности, а также по их рекламе и<br><br>
+    Мы оказываем комплексные услуги по созданию сайтов и интернет-магазинов различной сложности, а также по их рекламе и<br><br>
+    Мы оказываем комплексные услуги по созданию сайтов и интернет-магазинов различной сложности, а также по их рекламе и
 </div>
-<div id="slaider">
-    <?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
-</div>
+<div id="content"> Мы оказываем комплексные услуги по созданию сайтов и интернет-магазинов различной сложности, а также по их рекламе и продвижению в сети Интернет.Интернет завоевывает все больше и больше влияния на рынке рекламы товаров и услуг. В связи с этим, продвижение сайта в поисковых системах невозможно переоценить. Нахождение вашего сайта, в первых строках выдачи поисковых систем, неминуемо будет привлекать к вашим товарам и услугам все новых и новых клиентов. Студия "ГуруАйТи" профессионально занимается продвижением сайтов.
+    Уважаемые друзья, теперь мы готовы работать с юридическими лицами по безналичному расчёту! Мы делаем новый шаг в развитии взаимоотношений между нашей вэб-студией и нашими клиентами! </div>
 <a id="close" href="/">
 
 </a>
+
 
 <?php
