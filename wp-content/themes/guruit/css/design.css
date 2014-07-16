@@ -72,10 +72,10 @@ li.site_development_service {
     margin-left: 71.8vw;
 }
 .amazingcarousel-nav{
-    margin-left: 9vw !important;
-    margin-top: -0.5vh !important;
+    margin-left: 7vw !important;
+    margin-top: 15.5vh !important;
     position: absolute;
-    top: auto !important;
+    /*top: auto !important;*/
     right: auto !important;
 }
 .amazingcarousel-prev{

@@ -156,26 +156,49 @@ html, body, head, .main_page {
 }
 #bulb_on {
     margin-top: 25%;
-    margin-left: 47.9%;
-    width: 54px;
-    height: 25px;
+    margin-left: 47.5%;
+    width: 5%;
+    height: 5%;
     display: none;
     position: absolute;
-    background: url("/wp-content/themes/guruit/images/on++.png");
+    background: url("/wp-content/themes/guruit/images/on-bk.png");
     padding: 0;
-    cursor: pointer;
     background-size: 100%;
+    background-repeat: no-repeat;
  }
 #bulb_off {
     margin-top: 25%;
     margin-left: 47.5%;
-    /*width: 54px;*/
-    /*height: 25px;*/
     width: 5%;
     height: 5%;
     display: block;
     position: absolute;
-    background: url("/wp-content/themes/guruit/images/off++.png");
+    background: url("/wp-content/themes/guruit/images/off-bk.png");
+    padding: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#elips_off {
+    margin-top: 25.04%;
+    margin-left: 47.5%;
+    width: 2%;
+    height: 4%;
+    display: block;
+    position: absolute;
+    background: url("/wp-content/themes/guruit/images/elips.png");
+    padding: 0;
+    cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#elips_on {
+    margin-top: 25.04%;
+    margin-left: 50.4%;
+    width: 2%;
+    height: 4%;
+    display: none;
+    position: absolute;
+    background: url("/wp-content/themes/guruit/images/elips-on.png");
     padding: 0;
     cursor: pointer;
     background-size: 100%;
@@ -255,17 +278,36 @@ html, body, head, .main_page {
         height: 30px;
     }
     #bulb_on {
-        margin-left: 613px;
-        margin-top: 323px;
-
-    }
-    #bulb_off {
-        margin-left: 606px;
-        margin-top: 323px;
+        margin-left: 603px;
+        margin-top: 321px;
         position: absolute;
         padding: 0;
         width: 63px;
-        height: 30px;
+        height: 31px;
+    }
+    #bulb_off {
+        margin-left: 603px;
+        margin-top: 321px;
+        position: absolute;
+        padding: 0;
+        width: 63px;
+        height: 31px;
+    }
+    #elips_on {
+        margin-left: 642px;
+        margin-top: 321px;
+        position: absolute;
+        padding: 0;
+        width: 25px;
+        height: 24px;
+    }
+    #elips_off {
+        margin-left: 603px;
+        margin-top: 321px;
+        position: absolute;
+        padding: 0;
+        width: 25px;
+        height: 24px;
     }
     #lamp_on {
         margin-left: 584px;

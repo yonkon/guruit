@@ -104,6 +104,8 @@ if(false) {
     <!-- Серединка-->
   <div id="bulb_on"></div>
   <div id="bulb_off"></div>
+    <div id="elips_on"></div>
+    <div id="elips_off"></div>
   <div id="lamp_on"></div>
   <div id="lamp_off"></div>
   <div id="sifri"></div>
