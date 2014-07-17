@@ -5,8 +5,7 @@ body {
 
 #banner_header {
 	background-image: url('../images/infographics.png');
-    background-position-y: 4vh;
-    background-position-x: 0.5vw;
+    background-position: 0.5vw 4vh;
     background-size: 92vw 57vh;
 }
 

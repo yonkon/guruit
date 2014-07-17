@@ -5,8 +5,7 @@ body {
 
 #banner_header {
 	background-image: url('../images/desing.png');
-    background-position-y: 3.4vh;
-    background-position-x: -0.5vw;
+    background-position: -0.5vw 3.4vh;
     background-size: 92vw 57vh;
 }
 

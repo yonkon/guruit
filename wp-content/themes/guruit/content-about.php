@@ -6,6 +6,9 @@
         <div id="lamp_off"></div>
         <div id="bulb_on"></div>
         <div id="lamp_on"></div>
+				<div id="elips_on"></div>
+				<div id="elips_off"></div>
+
 	</div>
 </div>
 
@@ -21,4 +24,6 @@
 </div>
 <a id="close" href="/">
 </a>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/lamp_switcher.js"></script>
+
 <?php

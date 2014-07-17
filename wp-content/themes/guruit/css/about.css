@@ -4,8 +4,9 @@ body {
 }
 
 #banner_header {
+	margin-top: 3.1vh;
 	background-image: url('../images/onas.png');
-    background-position-y: 7%;
+    /*background-position: 0 7%;*/
     background-size: 92vw 57vh;
 
 }
@@ -31,12 +32,13 @@ li.site_development_service {
 	cursor: pointer;
 }
 #link_download {
-    position: absolute;
-    margin-top: 29vh;
-    margin-left: 28.6vw;
-    -webkit-transform: rotate(10deg);
-    cursor: pointer;
-		font-weight: 700;
+	position: absolute;
+	margin-top: 26.5vh;
+	margin-left: 28vw;
+	-webkit-transform: rotate(13deg);
+	transform: rotate(13deg);
+	cursor: pointer;
+	font-weight: 700;
 }
 #bulb_off {
 
@@ -66,10 +68,17 @@ li.site_development_service {
 
 
 }
-#title-text {
-
-
+#elips_off, #elips_on {
+	margin-top: 35vh;
 }
+#elips_off {
+	margin-left: 43.5vw;
+}
+#elips_on {
+	margin-left: 46.6vw;
+}
+
+
 #title {
     overflow: auto;
     word-break: break-all;
